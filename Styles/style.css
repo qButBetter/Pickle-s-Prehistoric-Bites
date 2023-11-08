@@ -1,0 +1,20 @@
+/* Use for Titles and Menu Items */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+/* Use for text and mostly everything else */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 5em;
+}
+
+p {
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-size: 2em;
+}
