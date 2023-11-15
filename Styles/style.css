@@ -25,10 +25,16 @@ div {
     width: 100%;
 }
 
+header>figure>a>img {
+    box-shadow: none;
+    width: 10%;
+}
+
 header>figure>img {
     box-shadow: none;
     width: 10%;
 }
+
 
 #logo {
     width: 100%;
