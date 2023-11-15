@@ -73,6 +73,10 @@ section {
     padding: 1.5em;
 }
 
+.carousel {
+    border: 10px solid red;
+}
+
 .button {
   color: #F8F8F0;
   background-color: #9E1D21;    /* Blue */
