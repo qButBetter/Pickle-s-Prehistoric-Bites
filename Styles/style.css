@@ -61,6 +61,11 @@ body {
   margin: 20px auto;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 .column {
     width: 48%;
 }
