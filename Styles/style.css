@@ -207,3 +207,18 @@ img {
 .vertical {
     flex-flow: column wrap;
 }
+
+.secret {
+    display: flex;
+    width: 0.02em;
+    font-size: 0.002em;
+    padding: 0em;
+    justify-content: flex-end;
+}
+
+.LookUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
