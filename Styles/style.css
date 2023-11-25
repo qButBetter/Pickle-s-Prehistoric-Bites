@@ -192,7 +192,7 @@ img {
     padding: 0em;
     box-shadow: 1em 1em black;
     width: 70%;
-    content: url(/Images/pickled.jpg)
+    content: url(/Images/pickled.jpg);
 }
 
 .reservation-container {
