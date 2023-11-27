@@ -191,8 +191,12 @@ img {
 #mascot:active {
     padding: 0em;
     box-shadow: 1em 1em black;
-    width: 70%;
+    width: 45%;
     content: url(/Images/pickled.jpg);
+}
+
+#mascot {
+    width: 45%;
 }
 
 .reservation-container {
