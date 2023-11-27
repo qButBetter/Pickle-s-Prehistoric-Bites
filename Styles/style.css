@@ -68,7 +68,7 @@ header {
     display: flex;
     width: 30%;
     justify-content: flex-start;
-    margin-right: 10em;
+    margin-right: 11em;
 }
 
 #navigation img {
@@ -197,12 +197,7 @@ img {
     content: url(/Images/thousand-yard-stare.jfif);
 }
 
-#tameem:hover {
-    padding: 0em;
-    box-shadow: 1em 1em black;
-    width: 70%;
-    content: url(/Images/drake.jfif);
-}
+
 
 #mascot:active {
     padding: 0em;
