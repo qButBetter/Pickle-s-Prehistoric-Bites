@@ -272,3 +272,22 @@ td:nth-of-type(1) {
     border-right: 0.5em black solid;
 }
 
+.items-checkout {
+    background-color: gray;
+}
+
+.you-may-like {
+    background-color: #568C6D;
+    color: white;
+    font-size: 1em;
+    width: 35%;
+    border: 10px black solid; 
+}
+
+.Jurassic-Pay {
+    width: 45%;
+}
+
+.checkout-wrapper {
+    
+}
