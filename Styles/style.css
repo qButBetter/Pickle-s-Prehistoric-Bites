@@ -39,30 +39,46 @@ a:active {
 
 header {
     background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
     flex-flow: row wrap;
     width: 100%;
 }
 
-#logo,
-#cart,
-#navigation {
+#logo, #cart, #navigation {
     display: flex;
     align-items: center;
-    
 }
 
 #logo img {
-    width: 50%;
-    object-fit: cover;
+    width: 100%;
+}
 
+#logo {
+    display: flex;
+    width: 33%;
+    justify-content: center;
 }
 
 #cart img {
-    
+    width: 73%;
+}
+
+#cart {
+    display: flex;
+    width: 33%;
+    justify-content: flex-start;
 }
 
 #navigation img {
+    display: flex;
+    width: 33%;
+}
 
+#navigation {
+    display: flex;
+    width: 33%;
+   justify-content: flex-end;
 }
 
 div {
@@ -114,6 +130,10 @@ body {
 
     width: 200px;
     margin: 20px auto;
+}
+
+#itinerary {
+    margin-left: 0.5em;
 }
 
 .center {
