@@ -68,6 +68,7 @@ header {
     display: flex;
     width: 30%;
     justify-content: flex-start;
+    margin-right: 10em;
 }
 
 #navigation img {
