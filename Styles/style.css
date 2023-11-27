@@ -45,7 +45,9 @@ header {
     width: 100%;
 }
 
-#logo, #cart, #navigation {
+#logo,
+#cart,
+#navigation {
     display: flex;
     align-items: center;
 }
@@ -78,7 +80,7 @@ header {
 #navigation {
     display: flex;
     width: 33%;
-   justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 div {
@@ -197,8 +199,6 @@ img {
     content: url(/Images/thousand-yard-stare.jfif);
 }
 
-
-
 #mascot:active {
     padding: 0em;
     box-shadow: 1em 1em black;
@@ -210,10 +210,11 @@ img {
     width: 45%;
 }
 
-#link, #number {
-padding: 1em;
-display: flex;
-justify-content: center;
+#link,
+#number {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
 }
 
 .reservation-container {
@@ -289,7 +290,7 @@ td:nth-of-type(1) {
     color: white;
     font-size: 1em;
     width: 35%;
-    border: 10px black solid; 
+    border: 10px black solid;
 }
 
 .Jurassic-Pay {
