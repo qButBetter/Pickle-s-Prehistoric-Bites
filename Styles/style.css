@@ -48,20 +48,21 @@ header {
 #navigation {
     display: flex;
     align-items: center;
-    max-width: none;
+    
 }
 
-#logo>img {
-    justify-content: center;
+#logo img {
+    width: 50%;
+    object-fit: cover;
 
 }
 
-#cart {
-    justify-content: flex-start;
+#cart img {
+    
 }
 
-#navigation {
-    justify-content: flex-end;
+#navigation img {
+
 }
 
 div {
@@ -87,13 +88,8 @@ section {
     padding: 2em;
 }
 
-header>section>figure>a>img {
+header img {
     box-shadow: none;
-}
-
-header>section>figure>img {
-    box-shadow: none;
-    width: 25%;
 }
 
 body {
