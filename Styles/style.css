@@ -210,13 +210,6 @@ img {
     width: 45%;
 }
 
-#link,
-#number {
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-}
-
 .reservation-container {
     flex-flow: column wrap;
     width: 50%;
@@ -240,6 +233,10 @@ img {
 
 .vertical {
     flex-flow: column wrap;
+}
+
+.online-res, .num-res {
+    font-size: 0.89em;
 }
 
 .secret {
