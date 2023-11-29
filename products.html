@@ -19,13 +19,18 @@
                 <a href="index.html"> <img src="Images/JP-logo.png" alt="Logo"></a>
             </figure>
 
-            <figure id="navigation">
-                <img src="Images/waffle.png" alt="Box Waffle">
-            </figure>
+            <div class="dropdown">
+                <button onclick="makeDropdown()" class="dropbtn"><img src="Images/waffle.png"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="itinerary.html">Itinerary</a>
+                    <a href="about.html">About</a>
+                    <a href="reservations.html">Reservations</a>
+                    <a href="products.html">Products</a>
+                </div>
+            </div>
         </section>
     </header>
-
-
 
     <h1>Our Products</h1>
 
@@ -154,8 +159,10 @@
             <!-- Make dropdown later -->
         </form>
         <a class="button" href="thank-you.html">Submit</a>
-
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
