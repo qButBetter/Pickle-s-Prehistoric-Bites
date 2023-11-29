@@ -64,19 +64,15 @@ header {
     justify-content: center;
 }
 
-#cart img {
-    width: 73%;
-}
-
 #cart {
     display: flex;
     width: 28%;
     justify-content: flex-start;
-   
 }
 
-#navigation img {
-    width: 33%;
+#shopping-cart {
+    color: black;
+    font-size: 3em;
 }
 
 div.dropdown {
@@ -85,16 +81,17 @@ div.dropdown {
     width: 28%;
     align-content: space-between;
     align-items: center;
+    justify-content: flex-end;
 }
 
 button.dropbtn {
     background-color: #D9D9D9;
-    width: 80%;
+    width: 60%;
+    justify-self: center;
 }
 
 #navigation {
     display: flex;
-    width: 28%;
     justify-content: flex-end;
 }
 
