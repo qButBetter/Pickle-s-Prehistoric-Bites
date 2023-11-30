@@ -41,12 +41,11 @@ header {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-    width: 100%;
+    width: 102%;
     position: fixed;
     top: 0;
     z-index: 100;
     margin-left: -2em;
-    margin-right: -2em;
 }
 
 #logo,
@@ -177,7 +176,7 @@ h1 {
     justify-content: center;
     font-family: 'Rock Salt', sans-serif;
     font-size: 5em;
-    padding: 2em;
+    padding-top: 2em;
 }
 
 h2 {
@@ -221,7 +220,7 @@ img {
     padding: 0em;
     box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.2);
     width: 70%;
-    content: url(/Images/drake.jfif);
+    content: url(/Images/pelo.png);
 }
 
 #mascot:active {
@@ -372,6 +371,11 @@ td:nth-of-type(1) {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display: block;
+}
+
+#myDropdown {
+    flex-flow: row wrap;
+    margin-top: 24em;
 }
 
 /* Slideshow container */
