@@ -212,21 +212,21 @@ img {
 
 #james:active {
     padding: 0em;
-    box-shadow: 1em 1em black;
+    box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.2);
     width: 70%;
     content: url(/Images/thousand-yard-stare.jfif);
 }
 
 #tameem:active {
     padding: 0em;
-    box-shadow: 1em 1em black;
+    box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.2);
     width: 70%;
     content: url(/Images/drake.jfif);
 }
 
 #mascot:active {
     padding: 0em;
-    box-shadow: 1em 1em black;
+    box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.2);
     width: 45%;
     content: url(/Images/pickled.jpg);
 }
