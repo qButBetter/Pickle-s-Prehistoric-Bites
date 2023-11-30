@@ -135,11 +135,6 @@ body {
     justify-content: center;
 }
 
-.kiryu {
-    display: flex;
-    justify-content: center;
-}
-
 .button {
     color: #F8F8F0;
     background-color: #9E1D21;
