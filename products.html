@@ -15,7 +15,7 @@
                 <a href="checkout.html"><i class="fa-solid fa-cart-shopping fa-2xl" id="shopping-cart"></i></a>
             </figure>
 
-                <a id="logo" href="index.html"></a>
+            <a id="logo" href="index.html"></a>
 
             <div class="dropdown">
                 <button onclick="makeDropdown()" class="dropbtn" id="navigation"></button>
@@ -35,6 +35,8 @@
     <main>
         <section class="row">
 
+            <!-- Add class to containers for products for Checkout -->
+
             <section class="column" id="pickle-fries">
                 <h2>Pickled Velociraptor Fries</h2>
                 <figure>
@@ -45,8 +47,6 @@
                     Crispy, battered french fries, topped with pickled seasoning; a perfect side to the T-Rex Steak or
                     the Brontosaurus Super Salad.
                 </p>
-
-                <!-- Stars + Price -->
 
                 <p>$13.99</p>
                 <a class="button" href="checkout.html">Add to Cart</a>
@@ -63,8 +63,6 @@
                     Gooey fried cheese sticks with 4 different kinds of cheeses in each one. The four cheeses used are
                     Gorgonzola, Mozzarella, Muenster and Ricotta. All imported from Italy.
                 </p>
-
-                <!-- Stars + Price -->
 
                 <p>$18.99</p>
                 <a class="button" href="checkout.html">Add to Cart</a>
@@ -86,8 +84,6 @@
                     online.
                 </p>
 
-                <!-- Stars + Price -->
-
                 <p>$59.99</p>
                 <a class="button" href="checkout.html">Add to Cart</a>
                 <br>
@@ -103,8 +99,6 @@
                     Robust salad packed with an abundance of fresh, vibrant ingredients. Colorful mix of garden-fresh
                     greens, crisp vegetables, savory proteins, and your choice of dressing.
                 </p>
-
-                <!-- Stars + Price -->
 
                 <p>$13.99</p>
                 <a class="button" href="checkout.html">Add to Cart</a>
@@ -123,8 +117,6 @@
                     Blue Raspberry with Strawberry, White Chocolate, and Almond Drizzle
                 </p>
 
-                <!-- Stars + Price -->
-
                 <p>$26.99</p>
                 <a class="button" href="checkout.html">Add to Cart</a>
                 <br>
@@ -136,13 +128,19 @@
         <a class="button center" href="checkout.html">View Cart</a>
     </main>
 
-    <footer>
-        <h2>Suggestions</h2>
+    <br>
+    <div></div>
+    <br>
 
-        <form>
-            <input type="text" id="iSuggestion" value="Suggestions?"><br><br>
-        </form>
-        <a class="button" href="thank-you.html">Submit</a>
+    <footer>
+        <h2 class="center">Suggestions</h2>
+
+        <section class="center">
+            <textarea type="text-area" id="iSuggestion" rows="4" cols="50">Suggestions?</textarea>
+        </section>
+
+        <a class="button center" href="thank-you.html">Submit</a>
+
         <br>
         <br>
 
@@ -151,12 +149,6 @@
         <div></div>
         <br>
 
-        <h2>Ratings</h2>
-
-        <form>
-            <!-- Make dropdown later -->
-        </form>
-        <a class="button" href="thank-you.html">Submit</a>
     </footer>
 
     <script src="script.js"></script>
