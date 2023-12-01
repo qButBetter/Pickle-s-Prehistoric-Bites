@@ -405,12 +405,11 @@ td:nth-of-type(1) {
 
 /* Slideshow container */
 .carousel {
-    max-height: 500px;
+    max-height: 50%;
     max-width: 100%;
     position: relative;
     width: 65%;
     margin-left: 16em;
-    top: 4;
 }
 
 /* Hide the images by default */
