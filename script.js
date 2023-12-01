@@ -1,7 +1,7 @@
 
   let navMenu = document.getElementById("navigation");
   // Change click to something else for hover
-  navMenu.addEventListener('mouseover', makeDropdown);
+  navMenu.addEventListener('onclick', makeDropdown);
 
   function makeDropdown() {
     document.getElementById("myDropdown").classList.toggle("show");

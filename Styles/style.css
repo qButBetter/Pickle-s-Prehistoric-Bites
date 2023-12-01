@@ -99,12 +99,13 @@ button.dropbtn {
 div {
     content: "";
     background-color: black;
-
 }
 
 .row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.5em;
 }
 
 section {
@@ -171,6 +172,7 @@ body {
 
 h1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-family: 'Rock Salt', sans-serif;
     font-size: 5em;
@@ -300,16 +302,12 @@ table {
     color: #F8F8F0;
     border: 10px black dotted;
     width: 70%;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 td:nth-of-type(1) {
     padding: 0.01em;
     border-right: 0.5em black solid;
-}
-
-.reservation-container {
-    margin-top: 30em;
 }
 
 .items-checkout {
@@ -334,7 +332,8 @@ td:nth-of-type(1) {
     border: 5px black solid;
 }
 
-#JP-Phone, #JP-PIN {
+#JP-Phone,
+#JP-PIN {
     flex-flow: row wrap;
     width: 80%;
 }
@@ -458,8 +457,13 @@ td:nth-of-type(1) {
 
 @media screen and (max-width: 1200px) {
 
-    .row {
-        width: 100%;
+    h1 {
+        text-align: center;
+        padding-top: 2em;
+    }
+
+    button.dropbtn {
+        width: 60%;
     }
 
     .column {
@@ -475,4 +479,23 @@ td:nth-of-type(1) {
         justify-content: center;
     }
 
+    main {
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+    p{
+        font-size: 1.5em;
+
+    }
+
+    #iSuggestion {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .reservation-container {
+        width: 100%;
+    }
 }
