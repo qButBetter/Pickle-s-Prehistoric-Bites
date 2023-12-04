@@ -31,9 +31,13 @@ a:active {
     color: #F3D13C;
 }
 
-
 :not(header) {
     padding: 0.5em;
+}
+
+div {
+    content: "";
+    background-color: black;
 }
 
 header {
@@ -75,7 +79,7 @@ header {
 
 #shopping-cart {
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 div.dropdown {
@@ -86,6 +90,55 @@ div.dropdown {
     justify-content: flex-end;
 }
 
+.product {
+    border: solid 1px black;
+    background-color: white;
+    padding: 0.5rem;
+    transition: box-shadow 500ms ease;
+    position: relative;
+}
+
+#products {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin-bottom: 2rem;
+}
+
+.prodPrice::before {
+    content: "$ ";
+}
+
+.prodBtn {
+    color: #F8F8F0;
+    background-color: #9E1D21;
+    /* Blue */
+    font-weight: bold;
+    padding: 0.5em;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.5em;
+    /* Dark gray */
+    border-radius: 30px;
+
+    width: 2em;
+    margin: 20px auto;
+}
+
+.prodImage {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.prodPrice {
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
 button.dropbtn {
     background-color: #D9D9D9;
     width: 40%;
@@ -94,11 +147,6 @@ button.dropbtn {
 #navigation {
     display: flex;
     justify-content: flex-end;
-}
-
-div {
-    content: "";
-    background-color: black;
 }
 
 .row {
@@ -455,15 +503,20 @@ td:nth-of-type(1) {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 640px) {
 
     h1 {
         text-align: center;
         padding-top: 2em;
+        font-size: 3em;
     }
 
     button.dropbtn {
-        width: 60%;
+        width: 100%;
+    }
+
+    #shopping-cart {
+        font-size: 0.9em;
     }
 
     .column {
@@ -471,6 +524,8 @@ td:nth-of-type(1) {
     }
 
     .column-photos {
+        display: flex;
+        justify-content: center;
         width: 100%;
     }
 
@@ -484,9 +539,8 @@ td:nth-of-type(1) {
         margin: 0 auto;
     }
 
-    p{
-        font-size: 1.5em;
-
+    p {
+        font-size: 1.2em;
     }
 
     #iSuggestion {
@@ -497,6 +551,15 @@ td:nth-of-type(1) {
 
     .reservation-container {
         width: 100%;
+    }
+
+    .prodBtn {
+        font-size: 1em;
+    }
+
+    #products {
+        padding: 1em;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* Fix carousel not working on mobile */

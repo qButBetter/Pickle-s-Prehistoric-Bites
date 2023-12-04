@@ -11,7 +11,7 @@
 <body>
     <header>
         <section class="row full">
-            <figure id="cart">
+            <figure id="shopping-cart">
                 <a href="checkout.html"><i class="fa-solid fa-cart-shopping fa-2xl" id="shopping-cart"></i></a>
             </figure>
 
@@ -33,96 +33,56 @@
     <h1>Our Products</h1>
 
     <main>
-        <section class="row">
+        <section id="products">
 
             <!-- Add class to containers for products for Checkout -->
 
-            <section class="column" id="pickle-fries">
-                <h2>Pickled Velociraptor Fries</h2>
-                <figure>
-                    <img src="Images/pickle-fries.png" alt="Pickled Velociraptor Fries">
-                </figure>
+            <section class="product" id="pickle-fries">
+                    <img src="Images/pickle-fries.png" alt="Pickled Velociraptor Fries" class="prodImage">
 
-                <p>
-                    Crispy, battered french fries, topped with pickled seasoning; a perfect side to the T-Rex Steak or
-                    the Brontosaurus Super Salad.
-                </p>
-
-                <p>$13.99</p>
-                <a class="button" href="checkout.html">Add to Cart</a>
-                <br>
+                    <h3 class="prodName">Picked Velociraptor Fries</h3>
+                    <p class="prodDesc">Crispy, battered french fries, topped with pickled seasoning; 
+                                        a perfect side to the T-Rex Steak or Brachiodog </p>
+                    <span class="prodPrice">13.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
             </section>
 
-            <section class="column" id="cheese-sticks">
-                <h2>Carnotaurus Cheese Sticks</h2>
-                <figure>
-                    <img src="Images/cheese-sticks.png" alt="Carnotaurus Cheese Sticks">
-                </figure>
+            <section class="product" id="cheese-sticks">
+                    <img src="Images/cheese-sticks.png" alt="Carnotaurus Cheese Sticks" class="prodImage">
 
-                <p>
-                    Gooey fried cheese sticks with 4 different kinds of cheeses in each one. The four cheeses used are
-                    Gorgonzola, Mozzarella, Muenster and Ricotta. All imported from Italy.
-                </p>
-
-                <p>$18.99</p>
-                <a class="button" href="checkout.html">Add to Cart</a>
-                <br>
-            </section>
-        </section>
-
-        <section class="row">
-            <section class="column" id="steak">
-                <h2>T-Rex Steak</h2>
-                <figure>
-                    <img src="Images/steak1.png" alt="T-Rex Steak">
-                </figure>
-
-                <p>
-                    A perfectly grilled T-bone steak served with creamy mashed potatoes, and a side of salad with a
-                    vinagrete dressing. You may upgrade to a larger side for extra. You may <a class="secret"
-                        href="secret.html">look</a> for the sides on a physical menu, side upgrades are not available
-                    online.
-                </p>
-
-                <p>$59.99</p>
-                <a class="button" href="checkout.html">Add to Cart</a>
-                <br>
+                    <h3 class="prodName">Carnotaurus Cheese Sticks</h3>
+                    <p class="prodDesc">Gooey fried cheese sticks with 4 different kinds of cheeses in each one.</p>
+                    <span class="prodPrice">18.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
             </section>
 
-            <section class="column" id="super-salad">
-                <h2>Brontosaurus Super Salad</h2>
-                <figure>
-                    <img src="Images/super-salad.png" alt="Brontosaur Super Salad">
-                </figure>
+            <section class="product" id="steak">
+                    <img src="Images/steak1.png" alt="T-Rex Steak" class="prodImage">
 
-                <p>
-                    Robust salad packed with an abundance of fresh, vibrant ingredients. Colorful mix of garden-fresh
-                    greens, crisp vegetables, savory proteins, and your choice of dressing.
-                </p>
+                    <h3 class="prodName">T-Rex Steak</h3>
+                    <p class="prodDesc">A perfectly grilled T-bone steak served with creamy mashed potatoes, and a side of salad with a
+                        vinagrete dressing. You may upgrade to a larger side for extra. You may <a class="secret"
+                            href="secret.html">look</a> for the sides on a physical menu, side upgrades are not available
+                        online.</p>
+                    <span class="prodPrice">59.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
+            </section>
 
-                <p>$13.99</p>
-                <a class="button" href="checkout.html">Add to Cart</a>
-                <br>
+            <section class="product" id="super-salad">
+                    <img src="Images/super-salad.png" alt="Brontosaur Super Salad" class="prodImage">
+
+                    <h3 class="prodName">Brontosaurus Super Salad</h3>
+                    <p class="prodDesc">Robust salad packed with an abundance of fresh, vibrant ingredients. Colorful mix of garden-fresh greens, 
+                                        crisp vegetables, savory proteins, and your choice of dressing.</p>
+                    <span class="prodPrice">13.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
+
+            </section>
+
+            <section class="product" id="dino-egg">
+                    <img src="Images/dino-egg.png" alt="Dino Egg" class="prodImage">
+                    
+                    <h3 class="prodName">Dino Egg</h3>
+                    <p class="prodDesc">Blue Raspberry with Strawberry, White Chocolate, and Almond Drizzle</p>
+                    <span class="prodPrice">26.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
             </section>
         </section>
-
-        <section class="center">
-            <section class="column" id="dino-egg">
-                <h2>Dino Egg</h2>
-                <figure>
-                    <img src="Images/dino-egg.png" alt="Dino Egg">
-                </figure>
-
-                <p>
-                    Blue Raspberry with Strawberry, White Chocolate, and Almond Drizzle
-                </p>
-
-                <p>$26.99</p>
-                <a class="button" href="checkout.html">Add to Cart</a>
-                <br>
-            </section>
-        </section>
-
         <br>
 
         <a class="button center" href="checkout.html">View Cart</a>
