@@ -257,27 +257,6 @@ img {
     width: 70%;
 }
 
-#james:active {
-    padding: 0em;
-    box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.2);
-    width: 70%;
-    content: url(/Images/thousand-yard-stare.jfif);
-}
-
-#tameem:active {
-    padding: 0em;
-    box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.2);
-    width: 70%;
-    content: url(/Images/pelo.png);
-}
-
-#mascot:active {
-    padding: 0em;
-    box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.2);
-    width: 45%;
-    content: url(/Images/pickled.jpg);
-}
-
 #mascot {
     width: 45%;
 }
@@ -319,18 +298,6 @@ img {
     color: #F3D13C;
     text-decoration: underline #F3D13C;
     padding: 0em;
-}
-
-.secret {
-    font-family: 'Bubblegum Sans', sans-serif;
-    font-size: 1em;
-    color: #F8F8F0;
-    text-decoration: none;
-    padding: 0em;
-}
-
-.secret:hover {
-    color: yellow;
 }
 
 .LookUp {
@@ -450,13 +417,16 @@ td:nth-of-type(1) {
     margin-top: 24em;
 }
 
+.carousel-container {
+    display: flex;
+    justify-content: center;
+}
+
 /* Slideshow container */
 .carousel {
-    max-height: 50%;
     max-width: 100%;
     position: relative;
-    width: 65%;
-    margin-left: 16em;
+    width: 60%;
 }
 
 /* Hide the images by default */
@@ -518,7 +488,7 @@ td:nth-of-type(1) {
     #shopping-cart {
         font-size: 0.9em;
     }
-
+    
     .column {
         width: 100%;
     }
@@ -564,6 +534,8 @@ td:nth-of-type(1) {
 
     /* Fix carousel not working on mobile */
     .carousel {
-        
+        max-width: 100%;
+        position: relative;
+        width: 100%;
     }
 }
