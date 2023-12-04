@@ -225,10 +225,12 @@ h1 {
     font-family: 'Rock Salt', sans-serif;
     font-size: 5em;
     padding-top: 2em;
+    text-align: center;
 }
 
 h2 {
     font-size: 3em;
+    text-align: center;
 }
 
 p {
