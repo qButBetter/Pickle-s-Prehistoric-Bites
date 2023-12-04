@@ -518,7 +518,7 @@ td:nth-of-type(1) {
 
     p {
         font-size: 1.2em;
-        margin: 0 auto;
+        padding: 0em;
     }
 
     #iSuggestion {
@@ -549,5 +549,14 @@ td:nth-of-type(1) {
 
     li {
         font-size: 0.8em;
+    }
+
+    #mascot {
+        width: 100%;
+    }
+
+    .button {
+        padding: 1em;
+        font-size: 1em;
     }
 }
