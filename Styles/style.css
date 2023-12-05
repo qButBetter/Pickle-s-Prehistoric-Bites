@@ -6,13 +6,13 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 html {
     background-color: #F8F8F0;
     width: 100vw;
     margin: 0 auto;
+    padding: 0em;
 }
 
 a {
@@ -26,10 +26,6 @@ a:hover {
 
 a:active {
     color: #F3D13C;
-}
-
-:not(header) {
-    padding: 0.5em;
 }
 
 div {
@@ -49,7 +45,7 @@ header {
 
 .header-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0.5em;
     width: 100%;
@@ -192,6 +188,8 @@ header img {
 body {
     flex-flow: row wrap;
     justify-content: center;
+    padding: 0em;
+    margin: 0;
 }
 
 .button {
@@ -285,7 +283,6 @@ img {
     content: "";
     background-image: url("/Images/squiggle.png");
     background-repeat: repeat-y;
-
 }
 
 .horizontal {
@@ -491,7 +488,7 @@ td:nth-of-type(1) {
     }
 
     h2 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     button.dropbtn {
@@ -519,7 +516,7 @@ td:nth-of-type(1) {
     }
 
     main {
-        width: 85vw;
+        width: 90vw;
         margin: 0 auto;
     }
 
@@ -555,7 +552,7 @@ td:nth-of-type(1) {
     }
 
     li {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     #mascot {
@@ -564,6 +561,10 @@ td:nth-of-type(1) {
 
     .button {
         padding: 1em;
+        font-size: 1em;
+    }
+
+    a[href*="#link"], a[href*="#number"] {
         font-size: 1em;
     }
 }
