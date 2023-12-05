@@ -193,6 +193,18 @@ body {
     margin: 0;
 }
 
+.online-res > p, .num-res > p {
+    text-align: center;
+}
+
+.online-res {
+    border-bottom: 5px black solid;
+}
+
+.num-res {
+    border-top: 5px black solid;
+}
+
 .button {
     color: #F8F8F0;
     background-color: #9E1D21;
@@ -282,8 +294,7 @@ img {
 .squiggle {
     display: flex;
     content: "";
-    background-image: url("/Images/squiggle.png");
-    background-repeat: repeat-y;
+    background-color: black;
 }
 
 .horizontal {
