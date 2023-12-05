@@ -101,7 +101,7 @@ function updateCart() {
     let cart = document.getElementById('cart');
     let total = 0;
     // check if cart is empty
-    if (shop.cart.length === 0) {
+    if (shop.cart.length == 0) {
         cart.innerHTML = '<h3>Your cart is empty</h3>';
         return;
     }
