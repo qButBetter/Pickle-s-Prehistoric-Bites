@@ -102,7 +102,7 @@ function updateCart() {
     let total = 0;
     // check if cart is empty
     if (shop.cart.length === 0) {
-        cart.innerHTML = '<h3 class=">Your cart is empty</h3>';
+        cart.innerHTML = '<h3>Your cart is empty</h3>';
         return;
     }
     // loop through cart and add items to cart element
@@ -113,7 +113,6 @@ function updateCart() {
             <img src="${item.imgSrc}" alt="${item.name}">
             <div class="cartItemInfo" >
                 <h3>${item.name}</h3>
-                <p>${item.desc}</p>
                 <div class="cartItemPricing">
                     <p>Price: $${item.price.toFixed(2)}</p>
                     <p>Quantity: ${item.qty}</p>
