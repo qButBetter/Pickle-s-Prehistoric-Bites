@@ -83,7 +83,7 @@ header {
 div.dropdown {
     background-color: #D9D9D9;
     display: flex;
-    width: 11%;
+    width: 10%;
     align-items: center;
     justify-content: flex-end;
 }
@@ -205,7 +205,8 @@ body {
     margin: 0;
 }
 
-.online-res > p, .num-res > p {
+.online-res>p,
+.num-res>p {
     text-align: center;
 }
 
@@ -363,12 +364,21 @@ td:nth-of-type(1) {
 
 .you-may-like {
     display: flex;
+    flex-wrap: wrap;
     background-color: #568C6D;
     color: white;
     font-size: 1em;
     width: 45%;
     border: 5px black solid;
     align-items: center;
+}
+.you-may-like h2{
+    font-size: 2em;
+    width: 100%
+}
+
+.like-images{
+    
 }
 
 .like-images img {
@@ -385,6 +395,7 @@ td:nth-of-type(1) {
 
 .Jurassic-Pay {
     display: flex;
+    flex-wrap: wrap;
     background-color: #9E1D21;
     border: 5px black solid;
     width: 25%;
@@ -394,6 +405,20 @@ td:nth-of-type(1) {
     align-self: flex-start;
 }
 
+.Jurassic-Pay form {
+    width: 90%;
+    margin-bottom: 0.5em;
+}
+
+.Jurassic-Pay input {
+    display: inline-block;
+    width: 85%;
+}
+
+.Jurassic-Pay h2  {
+    font-size: 2em;
+    width: 100%  
+}
 /* Dropdown Button */
 .dropbtn {
     color: white;
@@ -565,13 +590,13 @@ footer {
     }
 
     button.dropbtn {
-        width: 70%;
+        width: 65%;
     }
 
     #shopping-cart {
-        font-size: 1em;
+        font-size: 1.2em;
     }
-    
+
     .column {
         width: 100%;
         margin-top: 1em;
@@ -582,6 +607,7 @@ footer {
         justify-content: center;
         width: 100%;
     }
+
     div.dropdown {
         background-color: #D9D9D9;
         display: flex;
@@ -589,6 +615,7 @@ footer {
         align-items: center;
         justify-content: flex-end;
     }
+
     body {
         flex-flow: column wrap;
         justify-content: center;
@@ -643,11 +670,32 @@ footer {
         font-size: 1em;
     }
 
-    a[href*="#link"], a[href*="#number"] {
+    a[href*="#link"],
+    a[href*="#number"] {
         font-size: 1;
     }
 
     .product {
         padding-bottom: 2em;
+    }
+
+    .you-may-like h2 {
+        font-size: 1em;
+    }
+
+    .like-images {
+        width: 95%;
+    }
+
+    .like-images img {
+        width: 100%;
+    }
+
+    .Jurassic-Pay {
+        width: 50%;
+    }
+
+    .Jurassic-Pay h2 {
+        font-size: 1em;
     }
 }
