@@ -612,6 +612,10 @@ footer {
         margin-right: em;
     }
 
+    .header-container {
+        justify-content: none;
+    }
+
     #shopping-cart {
         font-size: 1.2em;
     }
