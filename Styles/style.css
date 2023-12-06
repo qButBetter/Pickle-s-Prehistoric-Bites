@@ -292,7 +292,7 @@ img {
 }
 
 #mascot {
-    width: 45%;
+    width: 50%;
 }
 
 .reservation-container {
@@ -372,18 +372,30 @@ td:nth-of-type(1) {
     border: 5px black solid;
     align-items: center;
 }
-.you-may-like h2{
+
+.you-may-like h2 {
     font-size: 2em;
     width: 100%
 }
 
-.like-images{
-    
+.like-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.like-images > .prodName {
+    display: none;
+}
+
+.like-images > .prodPrice {
+    display: none;
 }
 
 .like-images img {
     box-shadow: none;
-    width: 65%;
+    width: 45%;
     border: 5px black solid;
 }
 
@@ -415,10 +427,11 @@ td:nth-of-type(1) {
     width: 85%;
 }
 
-.Jurassic-Pay h2  {
+.Jurassic-Pay h2 {
     font-size: 2em;
-    width: 100%  
+    width: 100%
 }
+
 /* Dropdown Button */
 .dropbtn {
     color: white;
@@ -535,6 +548,10 @@ td:nth-of-type(1) {
     width: 70%;
 }
 
+.cartItem img {
+    margin-top: 1em;
+}
+
 .cartItemInfo {
     background-color: #D9D9D9;
 }
@@ -631,6 +648,19 @@ footer {
         padding: 0em;
     }
 
+    table {
+        width: 100%;
+    }
+
+    th {
+        padding-bottom: 1em;
+    }
+
+    td {
+        font-size: 0.5em;
+        padding-bottom: 1em;
+    }
+
     #iSuggestion {
         display: flex;
         justify-content: center;
@@ -681,14 +711,17 @@ footer {
 
     .you-may-like h2 {
         font-size: 1em;
+        margin: 0;
     }
 
     .like-images {
-        width: 95%;
+        width: 100%;
+        padding: 0.5em;
     }
 
     .like-images img {
-        width: 100%;
+        width: 45%;
+        border: 2px black solid;
     }
 
     .Jurassic-Pay {
