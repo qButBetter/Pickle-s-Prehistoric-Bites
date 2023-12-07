@@ -420,7 +420,7 @@ td:nth-of-type(1) {
 
 .Jurassic-Pay form {
     width: 90%;
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
 }
 
 .Jurassic-Pay input {
@@ -617,7 +617,7 @@ footer {
     }
    
     .header-container {
-        justify-content: none;
+        justify-content: space-between;
     }
 
     #shopping-cart {
