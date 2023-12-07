@@ -47,7 +47,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0.5em;
     width: 100%;
 }
 
@@ -612,7 +611,7 @@ footer {
     }
 
     .header-container {
-        justify-content: none;
+        justify-content: space-between;
     }
 
     #shopping-cart {
