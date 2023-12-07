@@ -612,16 +612,17 @@ footer {
     }
 
     button.dropbtn {
-        width: 70%;
-        margin-left: 1em;
+        width: 60%;
     }
    
     .header-container {
         justify-content: space-between;
+        margin-right: 2em;
     }
 
     #shopping-cart {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        width: fit-content;
     }
 
     .column {
@@ -675,6 +676,7 @@ footer {
         display: flex;
        justify-content: center;
     }
+
     #iSuggestion {
         display: flex;
         justify-content: center;
