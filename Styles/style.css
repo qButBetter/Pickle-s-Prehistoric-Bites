@@ -237,13 +237,15 @@ body {
     display: flex;
     justify-content: center;
 }
-.column li{
+
+.column li {
     padding-bottom: 2em;
 }
+
 .column-photos {
     display: flex;
     flex-wrap: wrap;
-    width: fit-content;
+    width: 45%;
     flex-direction: row;
     align-items: center;
 }
@@ -291,10 +293,6 @@ img {
 #tameem,
 #james {
     width: 70%;
-}
-
-#mascot {
-    width: 50%;
 }
 
 .reservation-container {
@@ -373,6 +371,7 @@ td:nth-of-type(1) {
     width: 45%;
     border: 5px black solid;
     align-items: center;
+    justify-content: space-between;
 }
 
 .you-may-like h2 {
@@ -384,7 +383,7 @@ td:nth-of-type(1) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 49%;
 }
 
 .like-images > .prodName {
@@ -397,8 +396,9 @@ td:nth-of-type(1) {
 
 .like-images img {
     box-shadow: none;
-    width: 45%;
+    width: 100%;
     border: 5px black solid;
+    margin: 0 auto;
 }
 
 #JP-Phone,
@@ -614,7 +614,7 @@ footer {
     button.dropbtn {
         width: 70%;
     }
-
+   
     .header-container {
         justify-content: space-between;
     }
@@ -670,6 +670,10 @@ footer {
         padding-bottom: 1em;
     }
 
+    #cart{
+        display: flex;
+       justify-content: center;
+    }
     #iSuggestion {
         display: flex;
         justify-content: center;
