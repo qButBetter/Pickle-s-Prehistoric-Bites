@@ -45,11 +45,17 @@ function addToCart(e) {
         if (node.className === descClass) attributes[1] = node.innerText;
         if (node.className === priceClass) attributes[2] = parseFloat(node.innerText);
         if (node.className === imageClass) attributes[3] = node.currentSrc;
+
     }
     // check if any attributes are undefined
     if (attributes.includes(undefined)) {
         console.log("Error: One or more attributes are undefined, check your class names");
         return; // exit function
+    }
+    if (attributes[3].includes("imgSrc")) {
+        console.log("Error: One or more attributes are undefined, check your class names");
+        attributes[3] = e.target.currentSrc;
+        // return; // exit function
     }
     // check if the item is already in the cart
     for (let item of shop.cart) {
@@ -95,10 +101,16 @@ function updateCartTotals() {
     if(document.getElementById(cartItemCountID) !== null) {
         document.getElementById(cartItemCountID).innerHTML = `${total[1]}`;
     }
+    if(document.getElementById("cart") !== null) {
+        updateCart();
+    }
+    
+
 }
 
 function updateCart() {
     let cart = document.getElementById('cart');
+    cart.innerHTML = "";
     let total = 0;
     // check if cart is empty
     if (shop.cart.length == 0) {
