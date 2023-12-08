@@ -554,6 +554,7 @@ td:nth-of-type(1) {
 }
 
 .cartItem img {
+    width: 70%;
     margin-top: 1em;
 }
 
