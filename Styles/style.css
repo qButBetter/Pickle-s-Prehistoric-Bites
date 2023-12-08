@@ -34,7 +34,7 @@ div {
 }
 
 header {
-    background-color: #D9D9D9;
+    background-color: darkgray;
     display: flex;
     width: 100vw;
     position: fixed;
@@ -69,19 +69,19 @@ header {
 }
 
 #cart {
-    background-color: #D9D9D9;
+    background-color: #717171;
     display: flex;
     width: 100%;
     justify-content: flex-start;
 }
 
 #shopping-cart {
-    color: black;
+    color: white;
     font-size: 1.2em;
 }
 
 div.dropdown {
-    background-color: #D9D9D9;
+    background-color: darkgray;
     display: flex;
     width: 10%;
     align-items: center;
@@ -152,7 +152,7 @@ main {
 }
 
 button.dropbtn {
-    background-color: #D9D9D9;
+    background-color: darkgray;
     width: 100%;
 }
 
