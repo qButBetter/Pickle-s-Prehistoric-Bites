@@ -638,7 +638,7 @@ footer {
     }
 
     div.dropdown {
-        background-color: #D9D9D9;
+        background-color: darkgray;
         display: flex;
         width: 20%;
         align-items: center;
