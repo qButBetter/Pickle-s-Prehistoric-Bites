@@ -51,7 +51,13 @@ header {
     margin-right: 1em;
 }
 
-
+a[href*="checkout.html"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    color: darkgray;
+}
 
 #logo,
 #cart,
