@@ -652,6 +652,7 @@ footer {
     }
 
     div.dropdown {
+        background-color: darkgray;
         display: flex;
         width: 20%;
         align-items: center;
@@ -686,9 +687,10 @@ footer {
         padding-bottom: 1em;
     }
 
-    #cart{
+    #cart {
         display: flex;
-        justify-content: center;
+       justify-content: center;
+       width: 100%;
     }
 
     #iSuggestion {
