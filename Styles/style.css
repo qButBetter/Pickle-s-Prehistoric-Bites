@@ -619,7 +619,7 @@ footer {
 
     h1 {
         text-align: center;
-        padding-top: 2em;
+        padding-top: 3em;
         font-size: 3em;
     }
 
@@ -628,15 +628,20 @@ footer {
     }
 
     button.dropbtn {
-        width: 60%;
+        width: 55%;
     }
    
     .header-container {
         justify-content: space-between;
+        margin: 0;
+    }
+
+    a[href*="checkout.html"] {
+        width: 20%;
     }
 
     #shopping-cart {
-        font-size: 1em;
+        font-size: 1.8em;
         width: fit-content;
     }
 
@@ -767,10 +772,11 @@ footer {
 
     .header-container {
         flex-wrap: wrap;
+        padding: 0.5em;
     }
 
     #logo {
-        width: 50%;
+        width: 30%;
     }
 
     #shopping-cart {
@@ -779,10 +785,11 @@ footer {
     }
 
     button.dropBtn {
-        width: 40%;
+        width: 30%;
     }
 
     h1 {
+        margin-top: 1em;
         font-size: 2.5em;
     }
 }
