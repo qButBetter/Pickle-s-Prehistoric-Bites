@@ -51,7 +51,7 @@ header {
     margin-right: 1em;
 }
 
-a[href*="checkout.html"] {
+.checkoutBtn {
     display: flex;
     justify-content: center;
     align-items: center;
