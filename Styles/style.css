@@ -636,7 +636,7 @@ footer {
         margin: 0;
     }
 
-    a[href*="checkout.html"] {
+    .checkoutBtn {
         width: 20%;
     }
 
