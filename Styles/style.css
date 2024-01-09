@@ -57,6 +57,7 @@ header {
     align-items: center;
     width: 10%;
     color: darkgray;
+    text-decoration: none;
 }
 
 #logo,
