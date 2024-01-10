@@ -567,6 +567,7 @@ td:nth-of-type(1) {
     flex-flow: column wrap;
     background-color: #D9D9D9;
     width: 70%;
+    padding-left: 1em;
 }
 
 .cartItem img {
@@ -763,6 +764,10 @@ footer {
 
     .Jurassic-Pay h2 {
         font-size: 1em;
+    }
+
+    .cartItem {
+        padding: 0;
     }
 }
 
